@@ -1,0 +1,15 @@
+﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Command/InputHandler.cs">
+    <Files>
+      <File FileName="Assets/Command/MovePlayerCommand.cs" Line="7" Column="2" />
+      <File FileName="Assets/Command/ICommand.cs" Line="7" Column="2" />
+      <File FileName="Assets/Command/InputHandler.cs" Line="25" Column="36" />
+      <File FileName="Assets/Commom/Scripts/ObjectSelector.cs" Line="19" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

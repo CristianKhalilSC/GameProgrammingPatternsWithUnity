@@ -1,0 +1,17 @@
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/obj/Debug/Assembly-CSharp-firstpass.dll
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/obj/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/Temp/bin/Debug/UnityEngine.dll
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/Temp/bin/Debug/UnityEditor.dll
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/Temp/bin/Debug/Mono.Cecil.dll
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/Temp/bin/Debug/Unity.DataContract.dll
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/cristiancruz/Desktop/GameProgrammingPatterns/Temp/bin/Debug/Mono.Cecil.Mdb.dll
