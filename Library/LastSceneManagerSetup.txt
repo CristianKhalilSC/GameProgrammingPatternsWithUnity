@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Pattern - Command/Main.unity
+- path: Assets/Pattern - Flyweight/Main.unity
   isLoaded: 1
   isActive: 1

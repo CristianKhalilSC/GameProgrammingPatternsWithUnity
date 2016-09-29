@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0A64E9B4-A842-C380-0AF6-AD44E1BED5DE}</ProjectGuid>
+    <ProjectGuid>{3C6358BE-5418-1A83-94D9-4018EDB86A84}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,12 +45,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Command\ICommand.cs" />
-     <Compile Include="Assets\Command\InputHandler.cs" />
-     <Compile Include="Assets\Command\MovePlayerCommand.cs" />
      <Compile Include="Assets\Commom\Scripts\ISelectible.cs" />
      <Compile Include="Assets\Commom\Scripts\ObjectSelector.cs" />
      <Compile Include="Assets\Commom\Scripts\OutlineSelectible.cs" />
+     <Compile Include="Assets\Pattern - Command\ICommand.cs" />
+     <Compile Include="Assets\Pattern - Command\InputHandler.cs" />
+     <Compile Include="Assets\Pattern - Command\MovePlayerCommand.cs" />
+     <Compile Include="Assets\Pattern - Flyweight\TerrainGenerator.cs" />
      <None Include="Assets\Commom\Shaders\Silhouetted Diffuse.shader" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
  <Reference Include="UnityEngine.UI">
@@ -62,7 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{7C726913-67BD-71E0-3AF1-C0F2B0B99539}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{6549B182-F481-0ADD-D52A-954347073D14}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
