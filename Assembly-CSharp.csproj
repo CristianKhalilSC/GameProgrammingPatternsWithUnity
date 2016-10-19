@@ -10,10 +10,11 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
-  </PropertyGroup>
+	<LangVersion>default</LangVersion>
+</PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
@@ -23,7 +24,8 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-  </PropertyGroup>
+	<LangVersion>default</LangVersion>
+</PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
@@ -31,7 +33,8 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-  </PropertyGroup>
+	<LangVersion>default</LangVersion>
+</PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.XML" />
@@ -45,13 +48,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Commom\Scripts\BallPlayerController.cs" />
+     <Compile Include="Assets\Commom\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Commom\Scripts\ISelectible.cs" />
      <Compile Include="Assets\Commom\Scripts\ObjectSelector.cs" />
+     <Compile Include="Assets\Commom\Scripts\ObjectSpawner.cs" />
      <Compile Include="Assets\Commom\Scripts\OutlineSelectible.cs" />
      <Compile Include="Assets\Pattern - Command\ICommand.cs" />
      <Compile Include="Assets\Pattern - Command\InputHandler.cs" />
      <Compile Include="Assets\Pattern - Command\MovePlayerCommand.cs" />
      <Compile Include="Assets\Pattern - Flyweight\TerrainGenerator.cs" />
+     <Compile Include="Assets\Pattern - Observer\AchievementSystem.cs" />
+     <Compile Include="Assets\Pattern - Observer\FireBallPlayer.cs" />
+     <Compile Include="Assets\Pattern - Observer\HUDCounter.cs" />
      <None Include="Assets\Commom\Shaders\Silhouetted Diffuse.shader" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
  <Reference Include="UnityEngine.UI">
@@ -73,5 +82,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>
