@@ -4,11 +4,16 @@ using UnityEngine;
 public class ObjectSpawner : MonoBehaviour
 {
 
-    public GameObject objectToSpawn;
-    public float timeToSpawn = 2f;
-    public Vector3 minPos;
-    public Vector3 maxPos;
-    public Vector3 rotation;
+    [SerializeField]
+    private GameObject objectToSpawn;
+    [SerializeField]
+    private float timeToSpawn = 2f;
+    [SerializeField]
+    private Vector3 minPos;
+    [SerializeField]
+    private Vector3 maxPos;
+    [SerializeField]
+    private Vector3 rotation;
 
     private List<GameObject> _objects;
     private float _timer;
