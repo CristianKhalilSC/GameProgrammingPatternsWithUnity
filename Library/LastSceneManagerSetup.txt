@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Pattern - Observer/Main.unity
+- path: Assets/Pattern - Prototype/Main.unity
   isLoaded: 1
   isActive: 1
