@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Pattern - Prototype/Main.unity
+- path: Assets/Pattern - Singleton/MainSingleton1.unity
   isLoaded: 1
   isActive: 1

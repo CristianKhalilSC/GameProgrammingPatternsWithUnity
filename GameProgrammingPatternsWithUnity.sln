@@ -1,10 +1,10 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{39EE1E50-EDC2-8567-5883-9CB6AD898219}") = "GameProgrammingPatternsWithUnity", "Assembly-CSharp-firstpass.csproj", "{6549B182-F481-0ADD-D52A-954347073D14}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProgrammingPatternsWithUnity", "Assembly-CSharp-firstpass.csproj", "{6549B182-F481-0ADD-D52A-954347073D14}"
 EndProject
-Project("{39EE1E50-EDC2-8567-5883-9CB6AD898219}") = "GameProgrammingPatternsWithUnity", "Assembly-CSharp.csproj", "{3C6358BE-5418-1A83-94D9-4018EDB86A84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProgrammingPatternsWithUnity", "Assembly-CSharp.csproj", "{3C6358BE-5418-1A83-94D9-4018EDB86A84}"
 EndProject
-Project("{39EE1E50-EDC2-8567-5883-9CB6AD898219}") = "GameProgrammingPatternsWithUnity", "Assembly-CSharp-Editor-firstpass.csproj", "{671E0E53-B8EE-5764-71E2-61A8917887CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProgrammingPatternsWithUnity", "Assembly-CSharp-Editor-firstpass.csproj", "{671E0E53-B8EE-5764-71E2-61A8917887CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
