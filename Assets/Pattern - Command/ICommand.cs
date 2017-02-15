@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public interface ICommand {
-	void Execute ();
-	void Undo ();
+public interface ICommand
+{
+    int PlayerID { get; set; }
+    int ObjectID { get; set; }
+    void Execute(GameObject obj);
 }

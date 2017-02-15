@@ -58,6 +58,10 @@
      <Compile Include="Assets\Pattern - Command\ICommand.cs" />
      <Compile Include="Assets\Pattern - Command\InputHandler.cs" />
      <Compile Include="Assets\Pattern - Command\MovePlayerCommand.cs" />
+     <Compile Include="Assets\Pattern - Command\Network.cs" />
+     <Compile Include="Assets\Pattern - Command\Player.cs" />
+     <Compile Include="Assets\Pattern - Command\PlayerObject.cs" />
+     <Compile Include="Assets\Pattern - Command\PlayersOverNetworkHandler.cs" />
      <Compile Include="Assets\Pattern - Flyweight\TerrainGenerator.cs" />
      <Compile Include="Assets\Pattern - Observer\AchievementSystem.cs" />
      <Compile Include="Assets\Pattern - Observer\FireBallPlayer.cs" />

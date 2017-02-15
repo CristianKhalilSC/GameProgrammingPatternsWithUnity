@@ -1,33 +1,26 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System;
+using UnityEngine;
 
-public class MovePlayerCommand : ICommand {
+[Serializable]
+public class MovePlayerCommand : ICommand
+{
+    public int PlayerID { get; set; }
+    public int ObjectID { get; set; }
 
-	private GameObject _gameObject;
+    private float _x;
+    private float _z;
 
-	private float _x;
-	private float _z;
+    public MovePlayerCommand(int playerId, int objectId, float x, float z)
+    {
+        PlayerID = playerId;
+        ObjectID = objectId;
+        _x = x;
+        _z = z;
+    }
 
-	private float _lastX;
-	private float _lastZ;
-
-	public MovePlayerCommand(GameObject gameObject, float x, float z){
-		_gameObject = gameObject;
-		_x = x;
-		_z = z;
-	}
-
-	public void Execute ()
-	{
-		_lastX = _gameObject.transform.position.x;
-		_lastZ = _gameObject.transform.position.z;
-
-		iTween.MoveTo(_gameObject, new Vector3(_x, _gameObject.transform.position.y, _z), 1.0f);
-	}
-
-	public void Undo ()
-	{
-		iTween.MoveTo(_gameObject, new Vector3(_lastX, _gameObject.transform.position.y, _lastZ), 1.0f);
-	}
+    public void Execute(GameObject obj)
+    {
+        iTween.MoveTo(obj, iTween.Hash("position", new Vector3(_x, obj.transform.position.y, _z), "islocal", true, "time", 1));
+    }
 
 }

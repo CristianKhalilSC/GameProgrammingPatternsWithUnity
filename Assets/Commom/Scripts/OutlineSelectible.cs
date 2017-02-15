@@ -1,26 +1,27 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class OutlineSelectible : MonoBehaviour, ISelectible {
+public class OutlineSelectible : MonoBehaviour, ISelectible
+{
 
-	private Renderer _renderer;
+    private Renderer _renderer;
 
-	// Use this for initialization
-	void Start () {
-		_renderer = GetComponent<Renderer> ();
-	}
-	
-	// Update is called once per frame
-	//void Update () {}
+    // Use this for initialization
+    void Start()
+    {
+        _renderer = GetComponent<Renderer>();
+    }
 
-	public void OnSelected ()
-	{
-		_renderer.material.SetFloat("_Outline", .01f);
-	}
+    // Update is called once per frame
+    //void Update () {}
 
-	public void OnDeselected ()
-	{
-		_renderer.material.SetFloat("_Outline", 0f);
-	}
+    public void OnSelected()
+    {
+        _renderer.material.SetFloat("_Outline", .01f);
+    }
+
+    public void OnDeselected()
+    {
+        _renderer.material.SetFloat("_Outline", 0f);
+    }
 
 }

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Pattern - Singleton/MainSingleton1.unity
+- path: Assets/Pattern - Command/MainMultiplayer.unity
   isLoaded: 1
   isActive: 1
